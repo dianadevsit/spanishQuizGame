@@ -16,9 +16,10 @@ gameScene.preload = function() {
   this.load.audio('treeAudio', 'assets/audio/arbol.mp3');
   this.load.audio('carAudio', 'assets/audio/auto.mp3');
   this.load.audio('houseAudio', 'assets/audio/casa.mp3');
-  this.load.audio('buildingAudio', 'assets/aduio/edificio.mp3');
-  this.load.audio('correctAudio', 'assets/audio/correct.mp3');
-  this.load.audio('wrongAudio', 'assets/audio/wrong.mp3');
+  this.load.audio('buildingAudio', 'assets/audio/edificio.mp3');
+  this.load.audio('correct', 'assets/audio/correct.mp3');
+  this.load.audio('wrong', 'assets/audio/wrong.mp3');
+};
 };
 
 // executed once, after assets were loaded
@@ -28,8 +29,9 @@ gameScene.create = function() {
 
   let soundSample = this.sound.add('correct');
   soundSample.play();
-  
-
+  // soundSample.stop();
+  // soundSample.pause();
+  // soundSample.resume();
 
 };
 
