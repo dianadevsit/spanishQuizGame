@@ -26,6 +26,10 @@ gameScene.create = function() {
   //load background
   this.add.sprite(0, 0, 'background').setOrigin(0, 0);
 
+  let soundSample = this.sound.add('correct');
+  soundSample.play();
+  
+
 
 };
 
