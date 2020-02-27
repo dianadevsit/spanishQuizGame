@@ -1,10 +1,8 @@
 # spanish quiz game
 
-# ¡Hola! ¡Beinvenidos a todos a mi pequeño juego!
+#  ¡Hola! ¡Beinvenidos a todos a mi pequeño juego!
 
 ## Welcome everyone to my mini-game! 
-
----
 
 This is a Phaser.js quiz game that is designed to teach the player Spanish!
 
