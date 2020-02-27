@@ -13,4 +13,4 @@ This is a Phaser.js quiz game that is designed to teach the player Spanish!
 - Multigroup sprites
 - Sprite Interactivity
 
-Learn and play by clicking here! Enjoy!
+Learn and play by clicking <a href="https://dwlam8790.github.io/spanishQuizGame/">here</a>! Enjoy!
